@@ -3,3 +3,37 @@ from django.shortcuts import render
 # Create your views here.
 def index(request):
     return render(request,'index.html')
+def About(request):
+    return render(request,'About.html')
+def Balcony(request):
+    return render(request,'BalconysafeNet.html')
+def BirdProtect(request):
+    return render(request,'BirdProtectNets.html')
+def BirdSpikes(request):
+    return render(request,'BirdSpikes.html')
+def ConsafafteyNets(request):
+    return render(request,'Constructionsafenet.html')
+def ChildernSafe(request):
+    return render(request,'Childernsafenet.html')
+def Carpark(request):
+    return render(request,'CarParkingSafeNet.html')
+def Coconut(request):
+    return render(request,'CoconutSafenet.html')
+def Cricket(request):
+    return render(request,'CricketSportNets.html')
+def DuctSafe(request):
+    return render(request,'DuctAreasafenets.html')
+def GlassSafe(request):
+    return render(request,'GlassSafenet.html')
+def industrysafe(request):
+    return render(request,'industrialsafteynets.html')
+def Monkeysafe(request):
+    return render(request,'Mokeysafteynets.html')
+def PigeonSafe(request):
+    return render(request,'PigeonSafteyNets.html')
+def PigeonNet(request):
+    return render(request,'PegionNetforBal.html')
+def StaircaseSfatey(request):
+    return render(request,'StaircaseSafteynets.html')
+def SwimmingSafe(request):
+    return render(request,'Swimmingpoolsafteynets.html')       
