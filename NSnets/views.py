@@ -6,7 +6,7 @@ def index(request):
 def About(request):
     return render(request,'About.html')
 def Balcony(request):
-    return render(request,'BalconysafeNet.html')
+    return render(request,'Balconysafenets.html')
 def BirdProtect(request):
     return render(request,'BirdProtectNets.html')
 def BirdSpikes(request):
